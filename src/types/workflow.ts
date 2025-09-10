@@ -7,10 +7,9 @@ export interface WorkflowData {
     | "instagram"
     | "youtube"
     | "tiktok";
-  clips: string[];
-  blogpost: string[];
-  socialpost: string[];
-  email: string[];
+  clipId: string;
+  socialpostId: string;
+  emailId: string;
 }
 
 export interface Workflow {
